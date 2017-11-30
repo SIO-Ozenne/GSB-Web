@@ -2,10 +2,12 @@
 <html>
 	<head>
 		<title>Site du Certa</title>
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
-		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="scripts.js"></script>
 	</head>
 	<body>
 		<div class="w3-container w3-padding-small w3-theme-d3">
@@ -13,38 +15,47 @@
 				<h2>Site du Certa</h2>
 			</div>
 			<div class="w3-right">
-				<a href=file:///I:/PPE/GSB-Web/site%20statique/index.html>
+				<a href="index.html">
 					<img src="../images/logo.png" height="75px" />
 				</a>
 			</div>
 		</div>
 
 		<div class="w3-bar w3-theme">
-			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Acceuil</a>
-			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Informations</a>
-			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Association</a>
-			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white w3-right">Contactez nous</a>
-			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Évènements</a>
+			<a href="#" class="w3-bar-item w3-button w3-hover-white">Acceuil</a>
+			<a href="#" class="w3-bar-item w3-button w3-hover-white">Informations</a>
+			<a href="#" class="w3-bar-item w3-button w3-hover-white">Association</a>
+			<a href="#" class="w3-bar-item w3-button w3-hover-white">Évènements</a>
+			<a href="#" class="w3-bar-item w3-button w3-hover-white w3-right">Contactez nous</a>
 		</div>
 		
-		<div class="w3-container">
-			<div class="w3-panel w3-orange w3-card-4">
-				<p>Bienvenue sur le site de GSB: L'entrepise pharmaceutique la plus efficace au monde !</p>
-			</div>
+		<div class="w3-sidebar w3-bar-block w3-theme-d3 w3-animate-left" style="display:none; width:12%;" id="sidebarDesFamilles">
+			<button class="w3-bar-item w3-button w3-hover-teal w3-large" style="text-align: center;	" onclick="w3_close()">&times;</button>
+			<a href="#" class="w3-bar-item w3-button w3-hover-teal">Qui sommes nous?</a>
+			<a href="#" class="w3-bar-item w3-button w3-hover-teal">Link 2</a>
+			<a href="#" class="w3-bar-item w3-button w3-hover-teal">Link 3</a>
 		</div>
-		
-		<!-- <img src="https://media2.giphy.com/media/FOHj4MpT2PLm8/giphy.gif" /> -->
-
-		<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-		<footer class="w3-container w3-teal">
-			<p>Développé par:
-			<a href="mailto:Fote.aurthaugrafe@cassecouillr.com">Chamcham des familles</a>
-			</p>
-		</footer>	
-			<footer class="w3-container w3-teal">
-				<div class="footer__copyright-conditions">
-				<span>Copyright © 2017 - Tous droits réservés - Réalisation GSB</span>
+		  
+		<div id="main">
+				<div class="w3-bar w3-theme-d3">
+					<div class="w3-bar-item" style="font-size:20px">
+						<button id="openNav" class="w3-button w3-teal w3-large" onclick="w3_open()">&#9776;</button>&nbsp;&nbsp;&nbsp;&nbsp;Qui sommes nous?
+					</div>
 				</div>
-			</footer>
+				<p style="padding-right: 5%; padding-left: 2%">
+					Le laboratoire Galaxy Swiss Bourdin (GSB) est issu de la fusion entre le géant américain Galaxy (spécialisé dans le secteur des maladies virales dont le SIDA et les hépatites) et le conglomérat européen Swiss Bourdin (travaillant sur des médicaments plus conventionnels), lui même déjà union de trois petits laboratoires. En 2009, les deux géants pharmaceutiques ont uni leurs forces pour créer un leader de ce secteur industriel. L’entité Galaxy Swiss Bourdin Europe a établi son siège administratif à Paris.
+				</p>
+		</div>
+
+		<footer class="w3-container w3-teal" style="position: absolute; right: 0; bottom: 0; left: 0; text-align: center;">
+			<p>Développé par:
+				<a href="mailto:Fote.aurthaugrafe@cassecouillr.com">
+					Chamcham des familles
+				</a>
+
+				<br />
+				Copyright © 2017 - Tous droits réservés - Réalisation GSB
+			</p>
+		</footer>
 	</body>
 </html>
