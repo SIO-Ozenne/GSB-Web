@@ -4,9 +4,23 @@ body {
     background-blend-mode: multiply;
  }
  
- .imageMedoc
+.imageMedoc
 {
-position: absolute;
-right: 0%;
-margin-right: 20px;
+    position: absolute;
+    right: 0%;
+    margin-right: 20px;
 }
+
+.médecins
+{
+    position: absolute;
+    right: 0%;
+    margin-right: 20px;
+}
+
+.image1
+{
+    right: 30%;
+}
+
+/* TODO: aligner les images du main */
