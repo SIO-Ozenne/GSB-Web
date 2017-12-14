@@ -26,6 +26,11 @@ body {
     height: 300px;
 }
 
+.imgTable {
+    margin: 5px;
+    width: 300px;
+}
+
 .footer {
     text-align: center;
     color: darkgrey;
