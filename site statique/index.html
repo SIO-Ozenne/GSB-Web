@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Site du Certa</title>
+		<title>Galaxy Swiss Bourdin</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -11,8 +11,8 @@
 	</head>
 	<body>
 		<div class="w3-container w3-padding-small w3-theme-d3">
-			<div class="w3-left" style="position: absolute; top: 1%;">
-				<h2>Site du Certa</h2>
+			<div class="w3-left titre">
+				<h2>Galaxy Swiss Bourdin | Acceuil</h2>
 			</div>
 			<div class="w3-right">
 				<a href="index.html">
@@ -22,16 +22,16 @@
 		</div>
 
 		<div class="w3-bar w3-theme">
-			<a href="#" class="w3-bar-item w3-button w3-hover-white">Acceuil</a>
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-white">Acceuil</a>
 			<a href="#" class="w3-bar-item w3-button w3-hover-white">Informations</a>
-			<a href="associations.html" class="w3-bar-item w3-button w3-hover-white">Association</a>
+			<a href="associations.html" class="w3-bar-item w3-button w3-hover-white">Associations</a>
 			<a href="#" class="w3-bar-item w3-button w3-hover-white">Évènements</a>
 			<a href="#" class="w3-bar-item w3-button w3-hover-white w3-right">Contactez nous</a>
 		</div>
 		
-		<div class="w3-sidebar w3-bar-block w3-theme-d3 w3-animate-left" style="display:none; width:15%;" id="sidebarDesFamilles">
-			<a href="file:///I:/PPE/GSB-Web/site%20statique/index.html" class="w3-bar-item w3-button w3-hover-teal">Qui sommes nous?</a>
-			<a href="file:///I:/PPE/PageAssos/Assos/Assos.html" class="w3-bar-item w3-button w3-hover-teal">Association</a>
+		<div class="w3-sidebar w3-bar-block w3-theme-d3 w3-animate-left menuSidebar" id="sidebar">
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-teal">Qui sommes nous?</a>
+			<a href="associations.html" class="w3-bar-item w3-button w3-hover-teal">Associations</a>
 			<a href="#" class="w3-bar-item w3-button w3-hover-teal">Link 3</a>
 		</div>
 		  
@@ -42,20 +42,17 @@
 				</div>
 			</div>
 			<div class="w3-container">
-				<div class="w3-panel w3-theme w3-card-4" style="padding-right: 5%; padding-left: 2%">
+				<div class="w3-panel w3-theme w3-card-4 cartePres">
 					<br />
 						Le laboratoire Galaxy Swiss Bourdin (GSB) est issu de la fusion entre le géant américain Galaxy (spécialisé dans le secteur des maladies virales dont le SIDA et les hépatites) et le conglomérat européen Swiss Bourdin (travaillant sur des médicaments plus conventionnels), lui même déjà union de trois petits laboratoires. En 2009, les deux géants pharmaceutiques ont uni leurs forces pour créer un leader de ce secteur industriel. L’entité Galaxy Swiss Bourdin Europe a établi son siège administratif à Paris.
 					<br />&nbsp;
 				</div>
-				<div class="imageMedoc">
-				<img src="../images/J1313A_panoralarger.jpg" atl="MEDIC"/>
-			  </div>
-			  <div class="imageLabo">
-				<img src="../images/notre_expertise.jpg" atl="MEDIC"/>
-			  </div>
+				<img class="imgCont" style="padding-left: 22%;" src="../images/J1313A_panoralarger.jpg" />
+				<img class="imgCont" src="../images/notre_expertise.jpg" />
+			</div>
 		</div>
 
-		<footer class="w3-container w3-teal" style="position: absolute; right: 0; bottom: 0; left: 0; text-align: center;">
+		<div class="footer">
 			<p>Développé par:
 				<a href="mailto:Fote.aurthaugrafe@cassecouillr.com">
 					Chamcham des familles
@@ -64,6 +61,6 @@
 				<br />
 				Copyright © 2017 - Tous droits réservés - Réalisation GSB
 			</p>
-		</footer>
+		</div>
 	</body>
 </html>

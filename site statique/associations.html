@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Site du Certa</title>
+		<title>Galaxy Swiss Bourdin</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -11,8 +11,8 @@
 	</head>
 	<body>
 		<div class="w3-container w3-padding-small w3-theme-d3">
-			<div class="w3-left" style="position: absolute; top: 1%;">
-				<h2>Site du Certa</h2>
+			<div class="w3-left titre">
+				<h2>Galaxy Swiss Bourdin | Associations</h2>
 			</div>
 			<div class="w3-right">
 				<a href="index.html">
@@ -22,16 +22,16 @@
 		</div>
 
 		<div class="w3-bar w3-theme">
-			<a href="#" class="w3-bar-item w3-button w3-hover-white">Acceuil</a>
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-white">Acceuil</a>
 			<a href="#" class="w3-bar-item w3-button w3-hover-white">Informations</a>
-			<a href="#" class="w3-bar-item w3-button w3-hover-white">Association</a>
+			<a href="associations.html" class="w3-bar-item w3-button w3-hover-white">Associations</a>
 			<a href="#" class="w3-bar-item w3-button w3-hover-white">Évènements</a>
 			<a href="#" class="w3-bar-item w3-button w3-hover-white w3-right">Contactez nous</a>
 		</div>
 		
-		<div class="w3-sidebar w3-bar-block w3-theme-d3 w3-animate-left" style="display:none; width:15%;" id="sidebarDesFamilles">
-			<a href="file:///I:/PPE/GSB-Web/site%20statique/index.html" class="w3-bar-item w3-button w3-hover-teal">Qui sommes nous?</a>
-			<a href="file:///I:/PPE/PageAssos/Assos/Assos.html" class="w3-bar-item w3-button w3-hover-teal">Association</a>
+		<div class="w3-sidebar w3-bar-block w3-theme-d3 w3-animate-left menuSidebar" id="sidebar">
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-teal">Qui sommes nous?</a>
+			<a href="associations.html" class="w3-bar-item w3-button w3-hover-teal">Associations</a>
 			<a href="#" class="w3-bar-item w3-button w3-hover-teal">Link 3</a>
 		</div>
 		  
@@ -42,25 +42,23 @@
 				</div>
 			</div>
 			<div class="w3-container">
-				<div class="w3-panel w3-theme w3-card-4" style="padding-right: 5%; padding-left: 2%">
+				<div class="w3-panel w3-theme w3-card-4 cartePres">
 					<br />
 						Médecins Sans Frontières est une association médicale humanitaire internationale, créée en 1971 à Paris par des médecins et des journalistes.
 						Depuis plus de quarante ans, Médecins Sans Frontières apporte une assistance médicale à des populations dont la vie ou la santé est menacée : principalement en cas de conflits armés, mais aussi d'épidémies, de pandémies, de catastrophes naturelles ou encore d'exclusion des soins. Toutes ces situations nécessitent des ressources médicales et logistiques adaptées.
 					<br />&nbsp;
-					</div>
-						<div class="médecins">
-							<a href="https://www.msf.fr/"><img src="../images/logo_medecins_sans_frontieres.jpg" alt="Médecins"/></a>
-					</div>
-						<div class="image1">
-							<a href="https://www.msf.fr/recrutement/travailler-sur-terrain"><img src="../images/sans_hesitation_homme.jpeg" alt="msf"/></a>
-					</div>
-							<div id="main">
-							<img src="../images/medecinsansfrontieres_03.jpg" align="center"/>
-							</div>
+				</div>
+				<a href="https://www.msf.fr/">
+					<img src="../images/logo_medecins_sans_frontieres.jpg" />
+				</a>
+				<a href="https://www.msf.fr/recrutement/travailler-sur-terrain">
+					<img src="../images/sans_hesitation_homme.jpeg" />
+				</a>
+				<img src="../images/medecinsansfrontieres_03.jpg" />
 			</div>
 		</div>	
 			  
-		<footer class="w3-container w3-teal" style="position: absolute; right: 0; bottom: 0; left: 0; text-align: center;">
+		<div class="footer">
 			<p>Développé par:
 				<a href="mailto:Fote.aurthaugrafe@cassecouillr.com">
 					Chamcham des familles
@@ -69,6 +67,6 @@
 				<br />
 				Copyright © 2017 - Tous droits réservés - Réalisation GSB
 			</p>
-		</footer>
+		</div>
 	</body>
 </html>

@@ -2,25 +2,33 @@ body {
     background-image: url("../images/medical.png");
     background-color: #cccccc;
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
  }
+
+ .titre {
+    position: absolute;
+    top: 1%;
+ }
+
+.menuSidebar {
+    display:none;
+    width:15%;
+}
+
+.cartePres {
+    padding-right: 5%;
+    padding-left: 2%;
+}
  
-.imageMedoc
-{
-    position: absolute;
-    right: 0%;
-    margin-right: 20px;
+.imgCont {
+    margin: 5px;
+    height: 300px;
 }
 
-.médecins
-{
-    position: absolute;
-    right: 0%;
-    margin-right: 20px;
-}
-
-.image1
-{
-    right: 30%;
+.footer {
+    text-align: center;
+    color: darkgrey;
 }
 
 /* TODO: aligner les images du main */
