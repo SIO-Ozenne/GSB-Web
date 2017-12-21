@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
+		<!-- en-tete de page, insertion des scripts / css -->
 		<title>Galaxy Swiss Bourdin</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +11,7 @@
 		<script src="deco/scripts.js"></script>
 	</head>
 	<body>
+		<!-- Barre du titre -->
 		<div class="w3-container w3-padding-small w3-theme-d3">
 			<div class="w3-left titre">
 				<h2>Galaxy Swiss Bourdin | Évènements</h2>
@@ -21,18 +23,22 @@
 			</div>
 		</div>
 		
+		<!-- Menu sidebar -->
 		<div class="w3-sidebar w3-bar-block w3-theme-d3 w3-animate-left menuSidebar" id="sidebar">
 			<a href="index.html" class="w3-bar-item w3-button w3-hover-teal">Qui sommes nous?</a>
 			<a href="associations.html" class="w3-bar-item w3-button w3-hover-teal">Associations</a>
 			<a href="evenements.html" class="w3-bar-item w3-button w3-hover-teal">Évènements</a>
 		</div>
-		  
+		
+		<!-- Contenu principal -->
 		<div id="main" style="margin-left: 0px">
+			<!-- Barre de menu retour / titre de page -->
 			<div class="w3-bar w3-teal">
 				<div class="w3-bar-item" style="font-size:20px">
 					<button id="toggleBtn" class="w3-button w3-theme-d3 w3-large" onclick="w3_toggle()">&#9776;</button>&nbsp;&nbsp;&nbsp;&nbsp;Évènements
 				</div>
 			</div>
+			<!-- Contenu texte -->
 			<div class="w3-container">
 				<div class="w3-panel w3-theme w3-card-4 cartePres">
 					<br />Bienvenue sur la page des évènements en association avec Médecins Sans Frontières.
@@ -45,6 +51,7 @@
 					<h2 style="color: white; float: right;">Évènements futurs</h2>
 				</div>
 				<br /><br /><br />
+				<!-- Tableaux des évènements -->
 				<table style="width: 47%; float: left;" class="w3-table w3-border w3-centered">
 					<tr class="w3-theme-d2">
 						<th>Photo</th>
@@ -113,7 +120,8 @@
 				
 			</div>
 		</div>	
-			  
+
+		<!-- Pied de page -->
 		<div class="footer">
 			<p>Développé par:
 				<a href="mailto:william.haskell2@gmail.com">
